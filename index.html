@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>2-oy 11-dars Practice</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./src/css/style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="navbar">
+					<div class="navbar-first">
+						<button class="navbar-bar">
+							<i class="fa fa-bars"></i>
+						</button>
+						<ul class="navbar-menu">
+							<li class="navbar-menu__item"><a href="#">Matches</a></li>
+							<li class="navbar-menu__item"><a href="#">Live Score</a></li>
+							<li class="navbar-menu__item"><a href="#">Statistics</a></li>
+							<li class="navbar-menu__item"><a href="#">Analytics</a></li>
+						</ul>
+					</div>
+					<form class="navbar-search">
+						<input
+							type="text"
+							placeholder="Search Matches, Players, Stats ..."
+						/>
+						<button>
+							<i class="fa fa-magnifying-glass"></i>
+						</button>
+					</form>
+					<div class="navbar-tools">
+						<a class="navbar-tools__item" href="/">
+							<i class="fa fa-bell"></i>
+						</a>
+						<a class="navbar-tools__item" href="/">
+							<i class="fa fa-envelope"></i>
+						</a>
+						<a class="navbar-tools__item" href="/">
+							<i class="fa-regular fa-heart"></i>
+						</a>
+						<div class="navbar-profile">
+							<span class="navbar-profile__user">
+								<i class="fa fa-user"></i>
+							</span>
+							<div class="navbar-profile__name">
+								<h3>John Doe</h3>
+								<span>Football player</span>
+							</div>
+							<i class="fa fa-chevron-down"></i>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar">
+					<ul class="sidebar-menu">
+						<li>
+							<a href="/"><i class="fa fa-cube"></i></a>
+						</li>
+						<li>
+							<a href="/"><i class="fa fa-users"></i></a>
+						</li>
+						<li>
+							<a href="/"><i class="fa fa-chart-simple"></i></a>
+						</li>
+					</ul>
+					<ul class="sidebar-sports">
+						<li>
+							<a href="#">
+								<i class="fa fa-futbol"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-basketball"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-volleyball"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-baseball"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-football"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-tennis"></i>
+							</a>
+						</li>
+					</ul>
+					<button class="sidebar-plus">
+						<i class="fa fa-plus"></i>
+					</button>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="main-sidebar">
+				<div>
+					<div class="me-sidebar">
+						<h3>Live Matches</h3>
+						<div class="me-sidebar__a">
+							<a class="me-sidebar__aa" href="#">
+								<i class="fa-solid fa-arrow-left fa-fade" style="color: #E5E5E5;"></i>
+							</a>
+							<a class="me-sidebar__aa" href="#">
+								<i class="fa-solid fa-arrow-right fa-fade" style="color: #A0A8B1;"></i>
+							</a>
+						</div>
+					</div>
+					<div class="me-sidebar__img">
+						<img src="src/images/city.png" alt="city" width="62px">
+						<p>3</p>
+						<p>:</p>
+						<p>2</p>
+						<img src="src/images/real.png" alt="real" width="62px">
+					</div>
+
+					<h3>Teams</h3>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/team.png" alt="team" width="45px">
+							<p>Roger II</p>
+						</div>
+						<div class="me-sidebar__team-i">
+							<p class="no">See Profile</p>
+							<i class="fa-solid fa-arrow-right fa-fade"></i>
+						</div>
+					</div>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/team.png" alt="team" width="45px">
+							<p>Roger II</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<i class="fa-solid fa-signal fa-fade" style="color: #FFA600;"></i>
+						</div>
+					</div>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/team.png" alt="team" width="45px">
+							<p>Roger II</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<i class="fa-solid fa-signal fa-fade" style="color: #F53636;"></i>
+						</div>
+					</div>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/team.png" alt="team" width="45px">
+							<p>Roger II</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<i class="fa-solid fa-signal fa-fade" style="color: #00A4DF;"></i>
+						</div>
+					</div>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/team.png" alt="team" width="45px">
+							<p>Roger II</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<i class="fa-solid fa-signal fa-fade" style="color: #FFA600;"></i>
+						</div>
+					</div>
+
+					<h3 class="me-sidebar__team2">Best Players</h3>
+
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/girl.png" alt="team" width="45px">
+							<p>Bannet</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<p>15</p>
+							<i class="fa-regular fa-futbol fa-spin" style="color: #63E6BE;"></i>
+						</div>
+					</div>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/girl.png" alt="team" width="45px">
+							<p>Bannet</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<p>15</p>
+							<i class="fa-regular fa-futbol fa-spin" style="color: #63E6BE;"></i>
+						</div>
+					</div>
+					<div class="me-sidebar__team">
+						<div class="me-sidebar__team-t">
+							<img src="src/images/girl.png" alt="team" width="45px">
+							<p>Bannet</p>
+						</div>
+						<div class="me-sidebar__team-i-2">
+							<p>15</p>
+							<i class="fa-regular fa-futbol fa-spin" style="color: #63E6BE;"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--!!  -->
+			<div class="main-content">
+				<div class="mc-hero">
+					<div class="mc-hero__info">
+						<img width="200px" src="./src/images/salah.png" alt="salah" />
+						<div class="mchi-wrap">
+							<div class="uchar">
+								<a class="me-sidebar__aa" href="#">
+									<i class="fa-solid fa-arrow-left fa-fade" style="color: #E5E5E5;"></i>
+								</a>
+								<a class="me-sidebar__aa" href="#">
+									<i class="fa-solid fa-arrow-right fa-fade" style="color: #A0A8B1;"></i>
+								</a>
+
+							</div>
+							<h2>Weekly Football Challenge</h2>
+							<div class="mchi-versus">
+								<span>
+									<img src="./src/images/real.png" alt="real" />
+								</span>
+								<p>VS</p>
+								<span>
+									<img src="./src/images/city.png" alt="city" />
+								</span>
+							</div>
+							<div class="mchi-info">
+								<p>
+									<i class="fa fa-clock"></i>
+									5:00 PM
+								</p>
+								<p>
+									<i class="fa fa-location-dot"></i>
+									London
+								</p>
+							</div>
+							<div class="mchi-players">
+								<span class="mchi-players__item">
+									<img src="./src/images/haland.png" alt="haland" />
+								</span>
+								<span class="mchi-players__item">
+									<img src="./src/images/vini.png" alt="vini" />
+								</span>
+								<span class="mchi-players__item">
+									<img src="./src/images/xusanov.png" alt="xusanov" />
+								</span>
+								<span class="mchi-players__item">
+									<img src="./src/images/yamal.png" alt="yamal" />
+								</span>
+								<button>Join Now
+									<i class="fa-solid fa-arrow-right fa-fade"></i>
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--???  -->
+				<div class="me-content">
+					<h3>Latest Matches</h3>
+					<div class="me-content-left">
+						<p>Filter :</p>
+
+						<span>
+							<p>Football</p>
+							<i class="fa-solid fa-chevron-down fa-xs"></i>
+						</span>
+						<span>
+							<p>5 vs 5</p>
+							<i class="fa-solid fa-chevron-down fa-xs"></i>
+						</span>
+						<span>
+							<p>London</p>
+							<i class="fa-solid fa-chevron-down fa-xs"></i>
+						</span>
+					</div>
+					<p class="me-content-cl">View All</p>
+				</div>
+
+				<!--!! me-vs 1 -->
+
+				<div class="me-vs-big">
+					<div class="me-vs">
+						<div class="me-vs__teams">
+							<div class="me-vs__teams-left">
+								<div class="mchi-versus">
+									<span>
+										<img src="./src/images/real.png" alt="real">
+									</span>
+									<p>NY Yorks</p>
+									<p class="me-vs-p">VS</p>
+									<span>
+										<img src="./src/images/city.png" alt="city">
+									</span>
+									<p>NY Yorks</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-center">
+								<div class="me-vs__teams-center1">
+									<i class="fa-regular fa-clock fa-shake"></i>
+									<p>5:00 PM</p>
+								</div>
+								<div class="me-vs__teams-center1">
+									<i class="fa-solid fa-location-dot fa-bounce"></i>
+									<p>London</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-right">
+								<i class="fa-regular fa-heart fa-beat-fade"></i>
+								<p>View Details</p>
+								<i class="fa-solid fa-arrow-right fa-fade" style="color: #007330;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--!! me-vs 1 -->
+
+				<div class="me-vs-big">
+					<div class="me-vs">
+						<div class="me-vs__teams">
+							<div class="me-vs__teams-left">
+								<div class="mchi-versus">
+									<span>
+										<img src="./src/images/real.png" alt="real">
+									</span>
+									<p>NY Yorks</p>
+									<p class="me-vs-p">VS</p>
+									<span>
+										<img src="./src/images/city.png" alt="city">
+									</span>
+									<p>NY Yorks</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-center">
+								<div class="me-vs__teams-center1">
+									<i class="fa-regular fa-clock fa-shake"></i>
+									<p>5:00 PM</p>
+								</div>
+								<div class="me-vs__teams-center1">
+									<i class="fa-solid fa-location-dot fa-bounce"></i>
+									<p>London</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-right">
+								<i class="fa-solid fa-heart fa-beat-fade" style="color: #ff0000;"></i>
+								<p>View Details</p>
+								<i class="fa-solid fa-arrow-right fa-fade" style="color: #007330;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--!! me-vs 1 -->
+
+				<div class="me-vs-big">
+					<div class="me-vs">
+						<div class="me-vs__teams">
+							<div class="me-vs__teams-left">
+								<div class="mchi-versus">
+									<span>
+										<img src="./src/images/real.png" alt="real">
+									</span>
+									<p>NY Yorks</p>
+									<p class="me-vs-p">VS</p>
+									<span>
+										<img src="./src/images/city.png" alt="city">
+									</span>
+									<p>NY Yorks</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-center">
+								<div class="me-vs__teams-center1">
+									<i class="fa-regular fa-clock fa-shake"></i>
+									<p>5:00 PM</p>
+								</div>
+								<div class="me-vs__teams-center1">
+									<i class="fa-solid fa-location-dot fa-bounce"></i>
+									<p>London</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-right">
+								<i class="fa-regular fa-heart fa-beat-fade"></i>
+								<p>View Details</p>
+								<i class="fa-solid fa-arrow-right fa-fade" style="color: #007330;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--!! me-vs 1 -->
+
+				<div class="me-vs-big">
+					<div class="me-vs">
+						<div class="me-vs__teams">
+							<div class="me-vs__teams-left">
+								<div class="mchi-versus">
+									<span>
+										<img src="./src/images/real.png" alt="real">
+									</span>
+									<p>NY Yorks</p>
+									<p class="me-vs-p">VS</p>
+									<span>
+										<img src="./src/images/city.png" alt="city">
+									</span>
+									<p>NY Yorks</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-center">
+								<div class="me-vs__teams-center1">
+									<i class="fa-regular fa-clock fa-shake"></i>
+									<p>5:00 PM</p>
+								</div>
+								<div class="me-vs__teams-center1">
+									<i class="fa-solid fa-location-dot fa-bounce"></i>
+									<p>London</p>
+								</div>
+							</div>
+							<div class="me-vs__teams-right">
+								<i class="fa-regular fa-heart fa-beat-fade"></i>
+								<p>View Details</p>
+								<i class="fa-solid fa-arrow-right fa-fade" style="color: #007330;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+	</body>
+</html>
