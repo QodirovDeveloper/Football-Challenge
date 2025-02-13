@@ -584,6 +584,9 @@ i:hover
 }
 @media (max-width: 1377px)
 {
+	.uchar {
+		margin-left: 250px;
+	}
 	.me-vs__teams-right
 	{
 		gap: 4px;
@@ -645,7 +648,7 @@ i:hover
 	}
 	.main-sidebar
 	{
-		width: 25%;
+		width: 100%;
 		display: flex;
 	}
 	a
@@ -676,4 +679,103 @@ i:hover
 	{
 		font-size: 19px !important;
 	}
+}
+@media (max-width: 935px)
+{
+	.main-sidebar
+	{
+		position: absolute;
+		width: 85%;
+		top: 990px;
+	}
+	main {
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 833px)
+{
+	.main-sidebar
+	{
+		/* margin-left: 5px; */
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+		position: absolute;
+		max-width: 83%;
+		top: 970px;
+	}
+	.mc-hero__info {
+		display: flex;
+    padding: 0 5px;
+    align-items: end;
+    color: white;
+    gap: 5px;
+	}
+}
+@media (max-width: 678px)
+{
+	.main-sidebar
+	{
+		/* margin-left: 5px; */
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+		position: absolute;
+		max-width: 83%;
+		top: 1100px;
+	}
+}
+@media (max-width: 665px)
+{
+	.me-vs__teams
+	{
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	main
+	{
+		padding: 0;
+		gap: 0;
+	}
+}
+@media (max-width: 635px)
+{
+	.main-sidebar
+	{
+		/* margin-left: 5px; */
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+		position: absolute;
+		max-width: 83%;
+		top: 1260px;
+	}
+}
+@media (max-width: 603px)
+{
+	.main-sidebar
+	{
+		/* margin-left: 5px; */
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+		position: absolute;
+		max-width: 83%;
+		top: 1340px;
+	}
+
+}
+@media (max-width: 361px)
+{
+	.main-sidebar
+	{
+		/* margin-left: 5px; */
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+		position: absolute;
+		max-width: 83%;
+		top: 1440px;
+	}
+
 }
